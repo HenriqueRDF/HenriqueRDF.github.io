@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henrique Freitas | Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script> 
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo">HENRIQUE FREITAS<span class="dot">.</span></div>
+            
+            <div class="nav-right">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#formacao">Formação</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#recomendacoes">Depoimentos</a></li>
+                        <li><a href="#contato" class="btn-nav">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="theme-switch-wrapper">
+                    <button id="theme-toggle" class="theme-btn" aria-label="Alternar Tema">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <canvas id="canvas-particles"></canvas>
+        <div class="container hero-flex">
+            <div class="hero-content scroll-reveal">
+                <span class="hero-tag">Data Analyst & BI Specialist</span>
+                <h1>Transformando dados<br>em <span class="typewriter-text">Inteligência</span></h1>
+                <p>Especialista em Python, SQL e Machine Learning. Focado em resolver problemas complexos através de insights estratégicos.</p>
+                <div class="hero-cta">
+                    <a href="#projetos" class="btn-primary">Ver Projetos</a>
+                    <a href="https://github.com/HenriqueRDF" target="_blank" class="btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+            <div class="hero-img-box scroll-reveal">
+                <img src="perfil.jpg" alt="Henrique Freitas" class="profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-pad">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Hard Skills & Stack</h2>
+            <div class="skills-grid scroll-reveal">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Linguagens Core</h3>
+                    <div class="skill-tags">
+                        <span class="tech-tag"><i class="fab fa-python"></i> Python</span>
+                        <span class="tech-tag"><i class="fas fa-database"></i> SQL</span>
+                        <span class="tech-tag"><i class="fab fa-r-project"></i> R</span>
+                        <span class="tech-tag"><svg class="custom-icon-sm" viewBox="0 0 24 24"><path fill="currentColor" d="M0 3.535L5.657 12 0 20.465h4.243L9.9 12 4.243 3.535H0zm6 0l5.657 8.465L6 20.465h4.243L15.9 12 10.243 3.535H6zM14 13h10v2.5H14V13zm4 5h6v2.5h-6V18z"/></svg> Haskell</span>
+                        <span class="tech-tag">C# / Java</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Dados & IA</h3>
+                    <div class="skill-tags">
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Pandas/NumPy</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">NLP (Spacy/NLTK)</span>
+                        <span class="tech-tag">Geoanálise (Geopandas)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-briefcase"></i> Gestão & Ferramentas</h3>
+                    <div class="skill-tags">
+                        <span class="tech-tag"><i class="fas fa-chart-simple"></i> Power BI</span>
+                        <span class="tech-tag">Lean Six Sigma</span>
+                        <span class="tech-tag">Scrum / Kanban</span>
+                        <span class="tech-tag">Excel Avançado</span>
+                        <span class="tech-tag"><i class="fab fa-git-alt"></i> Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacao" class="section-pad bg-alt">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Estudos & Qualificações</h2>
+            <div class="education-layout">
+                <div class="edu-column scroll-reveal">
+                    <h3 class="column-title"><i class="fas fa-graduation-cap"></i> Acadêmico</h3>
+                    <div class="edu-card main-edu">
+                        <div class="edu-header">
+                            <div class="edu-icon"><i class="fas fa-university"></i></div>
+                            <div>
+                                <h4>Ciência de Dados (Tecnólogo)</h4>
+                                <p class="institution">Fatec Baixada Santista</p>
+                                <span class="edu-year">Fev 2023 - Jul 2026 • 6/7 Ciclos</span>
+                            </div>
+                        </div>
+                        <div class="edu-details">
+                            <p class="edu-summary">Líder acadêmico e organizador de eventos.</p>
+                            <ul class="edu-list">
+                                <li>📢 <strong>Representante de Sala:</strong> Mediação discente/docente.</li>
+                                <li>🎓 <strong>Coordenador:</strong> Feira de Empregabilidade (Prospecção).</li>
+                                <li>📊 <strong>Foco:</strong> Estatística, Big Data e Gestão Ágil.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="edu-card">
+                        <div class="edu-header">
+                            <div class="edu-icon"><i class="fas fa-laptop-code"></i></div>
+                            <div>
+                                <h4>Técnico em Informática</h4>
+                                <p class="institution">Escola e Faculdade FORTEC</p>
+                                <span class="edu-year">2020 - 2022</span>
+                            </div>
+                        </div>
+                        <div class="edu-details">
+                            <ul class="edu-list">
+                                <li>💻 Participação na <strong>Olimpíada Nacional de Informática</strong>.</li>
+                                <li>🧠 Desenvolvimento em Java, C#, SQL e Redes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certs-column scroll-reveal">
+                    <h3 class="column-title"><i class="fas fa-certificate"></i> Certificados</h3>
+                    <div class="cert-scroll-wrapper">
+                        <div class="cert-list" id="cert-list">
+                            <div class="cert-item highlight-item">
+                                <div class="cert-icon usp"><i class="fas fa-book-open"></i></div>
+                                <div class="cert-info"><h4>Probabilidade e Estatística</h4><p>USP</p><small class="status-ongoing">Em andamento (65%)</small></div>
+                            </div>
+                            <div class="cert-item">
+                                <div class="cert-icon oracle"><i class="fas fa-cloud"></i></div>
+                                <div class="cert-info"><h4>OCI AI Foundations 2025</h4><p>Oracle</p><small>Jul 2025</small></div>
+                            </div>
+                            <div class="cert-item">
+                                <div class="cert-icon python"><i class="fab fa-python"></i></div>
+                                <div class="cert-info"><h4>Intermediate Python</h4><p>DataCamp</p><small>Jul 2025</small></div>
+                            </div>
+                            <div class="cert-item">
+                                <div class="cert-icon gold"><i class="fas fa-language"></i></div>
+                                <div class="cert-info"><h4>TOEIC (Inglês C1 - 955)</h4><p>ETS</p><small>Nov 2023</small></div>
+                            </div>
+                            <div class="cert-item">
+                                <div class="cert-icon six-sigma"><i class="fas fa-chart-pie"></i></div>
+                                <div class="cert-info"><h4>Lean Six Sigma White Belt</h4><p>CSSC</p><small>Abr 2025</small></div>
+                            </div>
+                            <div class="cert-item">
+                                <div class="cert-icon google"><i class="fab fa-google"></i></div>
+                                <div class="cert-info"><h4>Google Analytics Cert.</h4><p>Google</p><small>Set 2024</small></div>
+                            </div>
+                             <div class="cert-item">
+                                <div class="cert-icon aws"><i class="fab fa-aws"></i></div>
+                                <div class="cert-info"><h4>Intro to Generative AI</h4><p>AWS Educate</p><small>Mar 2025</small></div>
+                            </div>
+                        </div>
+                        <div class="scroll-arrow-overlay" id="scroll-btn"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="section-pad">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Projetos em Destaque</h2>
+            <div class="projects-grid" id="spotlight-grid">
+                <div class="project-card scroll-reveal">
+                    <div class="card-inner">
+                        <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h3>Detecção de Fraudes</h3>
+                        <p>Modelo XGBoost com 97% de Recall em transações financeiras. Uso de SMOTE para balanceamento.</p>
+                        <div class="tags"><span>Python</span><span>XGBoost</span><span>ML</span></div>
+                        <a href="https://github.com/HenriqueRDF" target="_blank" class="link-arrow">Ver Código <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card scroll-reveal">
+                    <div class="card-inner">
+                        <div class="card-icon"><i class="fas fa-brain"></i></div>
+                        <h3>Classificação CIFAR-10</h3>
+                        <p>Rede Neural Convolucional (CNN) para visão computacional. Foco em tensores e otimização.</p>
+                        <div class="tags"><span>Deep Learning</span><span>TensorFlow</span></div>
+                        <a href="https://github.com/HenriqueRDF" target="_blank" class="link-arrow">Ver Código <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card scroll-reveal">
+                    <div class="card-inner">
+                        <div class="card-icon"><i class="fas fa-map-marked-alt"></i></div>
+                        <h3>Geoanálise Ciclovias</h3>
+                        <p>Mapeamento estratégico com Geopandas e Folium para identificar lacunas em Santos/SP.</p>
+                        <div class="tags"><span>Geopandas</span><span>GIS</span><span>QGIS</span></div>
+                        <a href="https://github.com/HenriqueRDF" target="_blank" class="link-arrow">Ver Código <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card scroll-reveal">
+                    <div class="card-inner">
+                        <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Otimização Imobiliária</h3>
+                        <p>Redução de dimensionalidade (PCA) em dados imobiliários de King County (95% variância).</p>
+                        <div class="tags"><span>Estatística</span><span>Scikit-Learn</span></div>
+                        <a href="https://github.com/HenriqueRDF" target="_blank" class="link-arrow">Ver Código <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recomendacoes" class="section-pad bg-alt">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Recomendações</h2>
+            <div class="testimonials-wrapper scroll-reveal">
+                <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonials-track-container">
+                    <div class="testimonials-track">
+                        <div class="testimonial-card">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p class="quote-text">"Sua boa comunicação, proatividade e prontidão para resolver qualquer problema é um excelente exemplo."</p>
+                            <div class="testimonial-author"><div class="author-info"><h4>Ryam Sousa</h4><span>Assessor de Investimento</span></div></div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p class="quote-text">"I was captivated by his enthusiasm, intelligence and technical knowledge. I have no doubts about his promising future."</p>
+                            <div class="testimonial-author"><div class="author-info"><h4>Cleiton Brito</h4><span>Executivo Sênior / COO</span></div></div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p class="quote-text">"Aluno exemplar... Demonstrou capacidade notável de absorver conceitos complexos. Sua curiosidade o impulsionou além."</p>
+                            <div class="testimonial-author"><div class="author-info"><h4>Alessandro Lima</h4><span>Professor & Dev</span></div></div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p class="quote-text">"Henrique é um rapaz centrado, educadíssimo, organizado e motivado. Apresenta suas ideias com muita clareza."</p>
+                            <div class="testimonial-author"><div class="author-info"><h4>Gerson Prando, PHD</h4><span>Agente de Inovação</span></div></div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p class="quote-text">"Domínio em Gestão de Projetos e Ciência de Dados. Entende com rapidez o contexto de um problema."</p>
+                            <div class="testimonial-author"><div class="author-info"><h4>João Lucas Parada</h4><span>Estudante</span></div></div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p class="quote-text">"Conseguiu reativar o engajamento dos membros e promover momentos únicos. É uma pessoa criativa e proativa."</p>
+                            <div class="testimonial-author"><div class="author-info"><h4>Luiz Henrique Tenório</h4><span>Customer Operations</span></div></div>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            
+            <div class="slider-indicators"></div>
+        </div>
+    </section>
+
+    <section class="about-bar scroll-reveal">
+        <div class="container bar-content">
+            <div class="location-info">
+                <i class="fas fa-map-marker-alt dot"></i>
+                <span>Baseado em <strong>São Paulo, SP</strong> (Remoto/Híbrido)</span>
+            </div>
+            <a href="#" download class="btn-cv"><i class="fas fa-file-arrow-down"></i> Download CV</a>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <div class="container">
+            <div class="footer-grid">
+                
+                <div class="footer-brand">
+                    <div class="logo">HENRIQUE FREITAS<span class="dot">.</span></div>
+                    <p>Transformando dados complexos em decisões estratégicas. Vamos construir o futuro com inteligência.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#recomendacoes">Depoimentos</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Vamos conversar?</h4>
+                    
+                    <div class="email-wrapper" id="copy-email">
+                        <i class="fas fa-envelope"></i>
+                        <span id="email-text">profissionalhenriquefreitas@gmail.com</span>
+                        <span class="tooltip">Copiar Email</span> 
+                        <i class="fas fa-copy copy-icon"></i>
+                    </div>
+
+                    <div class="footer-social-icons">
+                        <a href="https://www.linkedin.com/in/henrique-freitas-cd/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/HenriqueRDF" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:profissionalhenriquefreitas@gmail.com"><i class="fas fa-paper-plane"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Henrique Freitas. Todos os direitos reservados.</p>
+                <p class="made-by">Desenvolvido com <i class="fas fa-code"></i> e Dados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
